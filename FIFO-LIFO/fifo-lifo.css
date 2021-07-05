@@ -1,0 +1,22 @@
+#fifoBoard{
+    display:inline-block;
+    text-align: center;
+    border: 2px black solid;
+    height: 350px;
+    width: 400px;
+    background-color: rgb(255, 253, 113);
+    float: left;
+    margin: 100px;
+}
+
+#lifoBord{
+    display:inline-block;
+    text-align: center;
+    border: 2px black solid;
+    height: 350px;
+    width: 400px;
+    background-color: rgb(94, 95, 161);
+    margin: 100px;
+
+}
+

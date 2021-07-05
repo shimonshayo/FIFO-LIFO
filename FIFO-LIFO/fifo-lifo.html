@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fifo-lifo.css">
+    <script src="fifo.js"></script>
+    <script src="lifo.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="fifoBoard">
+        
+            <h2>FIFO - queue list</h2>
+            <input id="fifoAdd" placeholder="add here!" type="text">
+            <button onclick="enqueue()">ADD</button><br><br>
+            <button onclick="dequeue()">REMOVE</button> Removing an object from the queue. <br><br>
+            
+            <br><br><br>
+            <div id="theQueList">the queue list:</div>
+
+    </div>
+  
+    <div id="lifoBord">
+            <h2>LIFO - stack</h2>
+            <input id="lifoAdd" placeholder="add here!" type="text">
+            <button onclick="pushItem()">PUSH</button>
+            <button onclick="popItem()">POP</button><br><br>
+           
+
+            
+            <div id="theStackList">the queue list:</div>
+    </div>
+</body>
+</html>
